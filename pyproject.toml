@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kivyhw"
+version = "0.1.0"
+description = "Hello world! app for Kivy"
+authors = ["AccelQuasarDragon <138998466+AccelQuasarDragon@users.noreply.github.com>"]
+license = "MIT license"
+readme = "README.md"
+packages = [{include = "kivy3"}]
+
+[tool.poetry.dependencies]
+python = "^3.9.5"
+Kivy = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
